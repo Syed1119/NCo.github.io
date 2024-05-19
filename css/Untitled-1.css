@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700|Source+Sans+Pro:400,600,700");
+
+body {
+    line-height: 1.4;
+    font-family: "Source Sans Pro", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .title-name {
+    color: #000000;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  p {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #000;
+    font-size: 16px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h6 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+  }
+  
+  /*=== MEDIA QUERY ===*/
+  body {
+    font-size: 15px;
+    color: #000;
+    line-height: 1.8em;
+    font-weight: 400;
+    background: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .page-wrapper {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 300px;
+  }
